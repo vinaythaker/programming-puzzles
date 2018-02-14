@@ -1,4 +1,4 @@
-package matrixspiral
+package puzzles
 
 func spiralorder(matrix [][]int) []int {
 

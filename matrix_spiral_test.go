@@ -1,10 +1,10 @@
-package matrixspiral
+package puzzles
 
 import (
 	"testing"
 )
 
-func TestCreateList(t *testing.T) {
+func TestBasicSpiral(t *testing.T) {
 	w := [][]int{[]int{1, 2, 3}, []int{4, 5, 6}, []int{7, 8, 9}}
 	req_answer := []int{1, 2, 3, 6, 9, 8, 7, 4, 5}
 
